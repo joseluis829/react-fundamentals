@@ -2,13 +2,26 @@
 <!-- http://localhost:3000/isolated/exercise/02.html -->
 
 <body>
-  <div id="root"></div>
 
   <script src="https://unpkg.com/react@16.13.1/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
 
   <script type="module">
-    const rootElement = document.getElementById('root')
+    
+    const divType = 'div';
+    const spanType = 'span';
+    const helloSpanProps = {children: 'Hello'};
+    const worldSpanProps = {children: 'World'}
+    const helloSpan = React.createElement(spanType, helloSpanProps);
+    const worldSpan = React.createElement(spanType, worldSpanProps);
+    const containerProps = { className: 'container', children: [helloSpan, worldSpan] };
+    const container = React.createElement(divType, containerProps);
+
+    const rootProps = { id: 'root', children: container };
+    const rootElement = React.createElement(divType, rootProps);
+
+    const body = document.body;
+    
 
     // You're going to re-implement this code using React!
     // 💣 So go ahead and delete this implementation (or comment it out for now)
@@ -20,12 +33,9 @@
     // This is similar to ReactDOM.render
     rootElement.append(element)
     */
-   const elementType = 'div';
-   const elementProps = { className: 'container', children: 'Hello World' };
-   const reactElement = React.createElement(elementType, elementProps);
     // 🐨 Please re-implement the regular document.createElement code above
     // with these React API calls
     // 💰 The example in the markdown file should be a good hint for you.
-    ReactDOM.render(reactElement, rootElement);
+    ReactDOM.render(rootElement, body);
   </script>
 </body>
