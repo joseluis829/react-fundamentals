@@ -129,6 +129,97 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "tcaraccia-riv",
+      "name": "Tomas Caraccia",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64477810?v=4",
+      "profile": "https://github.com/tcaraccia-riv",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vasilii-kovalev",
+      "name": "Vasilii Kovalev",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10310491?v=4",
+      "profile": "https://vk.com/vasilii_kovalev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "FelixGeelhaar",
+      "name": "Felix Geelhaar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6020564?v=4",
+      "profile": "https://github.com/FelixGeelhaar",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "apolakipso",
+      "name": "Apola Kipso",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/494674?v=4",
+      "profile": "https://twitter.com/apolakipso",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "dcgoodwin2112",
+      "name": "dcgoodwin2112",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4554388?v=4",
+      "profile": "https://github.com/dcgoodwin2112",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "PritamSangani",
+      "name": "Pritam Sangani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22857896?v=4",
+      "profile": "https://www.linkedin.com/in/pritamsangani/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rchinerman",
+      "name": "Ryan Hinerman",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17489675?v=4",
+      "profile": "https://github.com/rchinerman",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "Marcoj776",
+      "name": "Marco",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9052097?v=4",
+      "profile": "https://github.com/Marcoj776",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Aprillion",
+      "name": "Peter Hozák",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1087670?v=4",
+      "profile": "http://peter.hozak.info/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "emzoumpo",
+      "name": "Emmanouil Zoumpoulakis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2103443?v=4",
+      "profile": "https://github.com/emzoumpo",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true
