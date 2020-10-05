@@ -220,6 +220,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Navneet-Sahota",
+      "name": "Navneet Sahota",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34404592?v=4",
+      "profile": "https://navneet-sahota.netlify.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "rodrigofuentes",
+      "name": "Rodrigo Fuentes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7374840?v=4",
+      "profile": "https://github.com/rodrigofuentes",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jmagrippis",
+      "name": "Johnny Magrippis",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3502800?v=4",
+      "profile": "https://magrippis.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true
