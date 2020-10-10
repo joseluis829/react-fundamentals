@@ -11,19 +11,21 @@ function UsernameForm({onSubmitUsername}) {
   //
   // 🐨 get the value from the username input (using whichever method
   // you prefer from the options mentioned in the instructions)
-  // 💰 For example: event.target.elements[0]
+  // 💰 For example: event.target.elements[0].value
   // 🐨 Call `onSubmitUsername` with the value of the input
 
   // 🐨 add the onSubmit handler to the <form> below
 
-  // 🐨 make sure to associate the label to the input by specifying an `id` on
-  // the input and a matching value as an `htmlFor` prop on the label.
+  // 🐨 replace input's name attribute with id attribute
+  // 🐨 make sure to associate the label to the input. 
+  // to do so, set the value of 'htmlFor' prop of the label to the id of input
+
   function handleSubmit(event) {
     const username = event.target.elements[0].value
     onSubmitUsername(username)
     event.preventDefault()
   }
-
+  
   return (
     <form onSubmit={handleSubmit}>
       <div>
